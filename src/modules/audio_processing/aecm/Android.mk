@@ -24,7 +24,7 @@ LOCAL_SRC_FILES := \
     aecm_core.c
 
 # Flags passed to both C and C++ files.
-LOCAL_CFLAGS := $(MY_WEBRTC_COMMON_DEFS)
+LOCAL_CFLAGS := $(MY_WEBRTC_COMMON_DEFS) -O3
 
 LOCAL_CFLAGS_arm := $(MY_WEBRTC_COMMON_DEFS_arm)
 LOCAL_CFLAGS_x86 := $(MY_WEBRTC_COMMON_DEFS_x86)
